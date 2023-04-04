@@ -1,0 +1,107 @@
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0px;
+    background: url(../img/fondo.png);
+    background-image: url(../img/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header */
+header{
+    background-color: rgb(255, 78, 24);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#coffee{
+    font-family: 'Alkatra', cursive;
+    color: white;
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.4);
+}
+
+#imgcoffee{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 6px
+}
+
+/* contenido y links */
+
+section{
+    background-color: rgba(250, 250, 250, 1);
+    border-style: solid;
+    border-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#content{
+    float: center;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    padding: 40px;
+}
+
+section article a{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+section article a:hover{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    background-color: rgb(173, 173, 173);
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.article{
+    background-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+#img{
+    text-align: right;
+    float: right;
+    width: 23%;
+    margin-left: 15px;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+/* formulario */
+.form{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(179, 179, 179);
+    border-radius: 20px;
+    border-width: 1px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+footer{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
